@@ -1,3 +1,7 @@
+/**
+* <DAJIR Yousra>
+* Version 1.0
+*/
 import React from "react";
 import Personn from "../classes/Personn";
 
@@ -22,14 +26,14 @@ function PeopleTable() {
         </tr>
       </thead>
       <tbody>
-        {personnes.map((Personn) => (
-          <tr key={Personn.id}>
-            <td>{Personn.id}</td>
-            <td>{Personn.nom}</td>
-            <td>{Personn.prenom}</td>
-            <td>{Personn.adresse}</td>
-            <td>{Personn.codePostal}</td>
-            <td>{Personn.age}</td>
+        {personnes.map((personnes) => (
+          <tr key={personnes.id}>
+            <td>{personnes.id}</td>
+            <td>{personnes.nom}</td>
+            <td>{personnes.prenom}</td>
+            <td>{personnes.adresse}</td>
+            <td>{personnes.codePostal}</td>
+            <td>{personnes.age}</td>
           </tr>
         ))}
       </tbody>

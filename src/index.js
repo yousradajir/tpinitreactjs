@@ -21,6 +21,7 @@ import App from './App';
 import Name from './components/Name';
 import Content from './components/Content';
 import DateTime from './components/DateTime';
+import Personn from './classes/Personn';
 
 import reportWebVitals from './reportWebVitals';
 

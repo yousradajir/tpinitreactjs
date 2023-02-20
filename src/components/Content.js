@@ -1,3 +1,7 @@
+/**
+* <DAJIR Yousra>
+* Version 1.0
+*/
 import React, { Component } from 'react';
 
 class Content extends Component {
