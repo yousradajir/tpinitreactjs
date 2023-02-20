@@ -5,6 +5,14 @@
 
 import logo from './logo.svg';
 import './App.css';
+import Name from './components/Name';
+import DateTime from './components/DateTime';
+import Content from './components/Content';
+/**
+ * Composant : App a été crée automatiquement par la commande npx create-react-app
+ * @returns  = au render ReactJS
+ * Il est constitué par defaut par une balise parente
+ */
 
 function App() {
   return (
@@ -23,6 +31,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <Name />
+      <h2>Aujourd'hui nous sommes : {DateTime()} </h2>
+      <Content />
     </div>
   );
 }
