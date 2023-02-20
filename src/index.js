@@ -12,7 +12,7 @@ import ReactDOM from 'react-dom/client';
 /**
  * on importe et on charge fichier index.css
  */
-import './index.css';
+import './css/index.css';
 
 /**
  * on importe le composant ReactJS : App (le composant principal)

@@ -4,7 +4,7 @@
 */
 
 import logo from './logo.svg';
-import './App.css';
+import './css/App.css';
 import Name from './components/Name';
 import DateTime from './components/DateTime';
 import Content from './components/Content';
@@ -31,9 +31,10 @@ function App() {
           Learn React
         </a>
       </header>
-      <Name />
+      <h1>Bonjour <Name /></h1>
       <h2>Aujourd'hui nous sommes : {DateTime()} </h2>
-      <Content />
+      <h2><Content /></h2>
+      
     </div>
   );
 }

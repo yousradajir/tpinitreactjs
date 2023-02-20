@@ -4,7 +4,7 @@ class Content extends Component {
   render() {
     return (
       <div>
-        <h1>Contenu de l'application ReactJs</h1>
+        <h2>Contenu de l'application ReactJs</h2>
       </div>
     );
   }
