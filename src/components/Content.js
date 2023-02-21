@@ -8,7 +8,7 @@ class Content extends Component {
   render() {
     return (
       <div>
-        <h2>Contenu de l'application ReactJs</h2>
+        <a>Contenu de l'application ReactJs</a>
       </div>
     );
   }

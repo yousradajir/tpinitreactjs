@@ -8,7 +8,7 @@ import './css/App.css';
 import Name from './components/Name';
 import DateTime from './components/DateTime';
 import Content from './components/Content';
-import PeopleTable from './components/Liste';
+import Liste from './components/Liste';
 /**
  * Composant : App a été crée automatiquement par la commande npx create-react-app
  * @returns  = au render ReactJS
@@ -33,12 +33,11 @@ function App() {
         </a>
       </header>
       <div className="Digi-main">
-        <h1>Bonjour <Name /></h1>
-        <h2>
-          <Content />
-          <PeopleTable />
-        </h2>
-        <h2>Aujourd'hui nous sommes : {DateTime()} </h2>
+        <h1>Bonjour </h1>
+        <h1><Name /> </h1>
+        <h2><Content /></h2>
+        <h2><Liste /></h2>
+        <h3>Aujourd'hui nous sommes : {DateTime()} </h3>
       </div>
     </div>
   );
