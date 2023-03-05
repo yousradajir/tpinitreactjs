@@ -1,0 +1,42 @@
+{
+  "list": [
+    {
+      "id":1,
+      "nom":"Dolon",
+      "prenom" :"Pauline",
+      "adresse" : "Rue de Metz",
+      "codePostal" : "54000",
+      "ville" : "Nancy",
+      "age" : 25
+  },
+  {
+    "id":2,
+    "nom":"Dajir",
+    "prenom" :"Yousra",
+    "adresse" : "avenue berthelot",
+    "codePostal" : "69008",
+    "ville" : "Lyon",
+    "age" : 22
+},
+{
+  "id":3,
+  "nom":"Moinier",
+  "prenom" :"Coralie",
+  "adresse" : "avenur nationale",
+  "codePostal" : "75000",
+  "ville" : "paris",
+  "age" : 23
+}
+ 
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -70,3 +70,19 @@
 h2 {
   color: #4bb5c1;
 }
+
+.add, .edit, .delete {
+  border-radius: 20px;
+  background-color: gold;
+  border: 2px solid navy;
+  color: white;
+  padding: 8px 16px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.add:hover, .edit:hover, .delete:hover {
+  background-color: darkgoldenrod;
+  border-color: blue;
+}
+

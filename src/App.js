@@ -9,6 +9,7 @@ import Name from './components/Name';
 import DateTime from './components/DateTime';
 import Content from './components/Content';
 import Liste from './components/Liste';
+import CrudHOOK from './components/CrudHOOK';
 /**
  * Composant : App a été crée automatiquement par la commande npx create-react-app
  * @returns  = au render ReactJS
@@ -37,6 +38,7 @@ function App() {
         <h1><Name /> </h1>
         <h2><Content /></h2>
         <h2><Liste /></h2>
+        <h2><CrudHOOK /></h2>
         <h3>Aujourd'hui nous sommes : {DateTime()} </h3>
       </div>
     </div>
